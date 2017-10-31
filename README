@@ -1,8 +1,1 @@
-vimrc
-
-If you don't know what a vimrc file is for, please go learn more about the VIM editor.  This repo won't be of any use to you until you are at least slightly comfortable in VIM. 
-
-This is my general purpose vimrc.  It is the one I use for my personal logins that won't see alot of heavy programming.  It's also the starting point for all my professional/personal programming vimrcs. I usually create a separate login account for each type of development (sometimes even each project) I work on, and I put different plugins/scripts to work in each.  I find having a nice, clean home folder and a toolchain customized to what I'm working on improves my productivity significantly. 
-
-There are many great VIM plugins available to help you do almost any kind of editing more efficiently. The one's listed in this vimrc are all available on github.  I wouldn't be nearly as efficient in my programming if it wasn't for the excellent work of these plugins' authors.  Thank you all so much.
-
+Quite the delicious serving of vimrc!

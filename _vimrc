@@ -74,34 +74,37 @@ endif
 "Set up Vundle add-on manager
 filetype off							"Vundle requirement
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 " let Vundle manage Vundle
  " required! 
- Bundle 'gmarik/vundle'
+  Plugin 'VundleVim/Vundle.vim'
 
  " My Bundles here:
  "
  " original repos on github
- Bundle 'tpope/vim-fugitive'
- Bundle 'tpope/vim-surround'
- Bundle 'Lokaltog/vim-easymotion'
+  Plugin 'tpope/vim-fugitive'
+  Plugin 'tpope/vim-surround'
+  Plugin 'Lokaltog/vim-easymotion'
     "Snipmate Dependencies
- Bundle "MarcWeber/vim-addon-mw-utils"
- Bundle "tomtom/tlib_vim"
- Bundle 'snipmate-snippets'
+  Plugin 'MarcWeber/vim-addon-mw-utils'
+  Plugin 'tomtom/tlib_vim'
+  Plugin 'snipmate-snippets'
 
- Bundle "garbas/vim-snipmate"
+  Plugin 'garbas/vim-snipmate'
 
- Bundle "scrooloose/nerdcommenter"
- Bundle "scrooloose/nerdtree"
+  Plugin 'scrooloose/nerdcommenter'
 
+  Plugin 'scrooloose/nerdtree'
 
 
  " vim-scripts repos
  " non github repos
  " ...
+
+
+call vundle#end()
 
  filetype plugin indent on     " required!
  "
